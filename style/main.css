@@ -3,7 +3,7 @@ html, body {
   margin: 0;
   padding: 0;
   background: #00ffff;
-  color: #f0ffff;
+  color: #7fffd4;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
@@ -50,7 +50,7 @@ h1.title {
   float: right;
   text-align: right; }
 
-.分數-container, .最高-container {
+score-container, .best-container {
   position: relative;
   display: inline-block;
   background: #bbada0;
@@ -63,7 +63,7 @@ h1.title {
   color: blue;
   margin-top: 8px;
   text-align: center; }
-  .分數-container:after, .最高-container:after {
+  .score-container:after, .best-container:after {
     position: absolute;
     width: 100%;
     top: 10px;
@@ -73,7 +73,7 @@ h1.title {
     line-height: 13px;
     text-align: center;
     color: #eee4da; }
-  .分數-container .score-addition, .最高-container .分數-addition {
+  .score-container .score-addition, .best-container .score-addition {
     position: absolute;
     right: 30px;
     color: red;
@@ -89,11 +89,11 @@ h1.title {
     -moz-animation-fill-mode: both;
     animation-fill-mode: both; }
 
-.分數-container:after {
-  content: "分數"; }
+.score-container:after {
+  content: "score"; }
 
-.最高-container:after {
-  content: "最高"; }
+.best-container:after {
+  content: "best"; }
 
 p {
   margin-top: 0;
