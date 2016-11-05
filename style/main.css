@@ -60,7 +60,7 @@ score-container, .best-container {
   line-height: 47px;
   font-weight: bold;
   border-radius: 3px;
-  color: red;
+  color: white;
   margin-top: 8px;
   text-align: center; }
   .score-container:after, .best-container:after {
@@ -90,11 +90,10 @@ score-container, .best-container {
     animation-fill-mode: both; }
 
 .score-container:after {
-  content: "score"; }
+  content: "Score"; }
 
 .best-container:after {
-  content: "best"; }
-
+  content: "Best"; }
 p {
   margin-top: 0;
   margin-bottom: 10px;
