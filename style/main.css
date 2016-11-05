@@ -198,7 +198,7 @@ hr {
       color: #f9f6f2; }
       .game-container .game-message.game-won a.keep-playing-button {
         display: inline-block; }
-    .game-container .game-message.game-won, .game-container .game-message.game-over {
+    .game-container .game-message.game-won, .game-container .game-message.game-over!! {
       display: block; }
 
 .grid-container {
